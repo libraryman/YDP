@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Daily Practice | Performance Coaching & Community</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        ydpPink: '#FF69B4',
+                        ydpGreen: '#00D166',
+                        ydpDark: '#111111',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        .ydp-gradient {
+            background: linear-gradient(135deg, rgba(255,105,180,0.1) 0%, rgba(0,211,102,0.1) 100%);
+        }
+    </style>
+</head>
+<body class="bg-ydpDark text-gray-100 font-sans antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 bg-ydpDark/90 backdrop-blur-md border-b border-gray-800">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="font-display font-black text-xl tracking-tighter text-white">
+                YOUR DAILY <span class="text-ydpGreen">PRACTICE</span>
+            </a>
+            <div class="hidden md:flex space-x-8 text-sm font-semibold tracking-wide uppercase">
+                <a href="#about" class="hover:text-ydpPink transition-colors">About</a>
+                <a href="#basecamp" class="hover:text-ydpGreen transition-colors">Basecamp</a>
+                <a href="#modalities" class="hover:text-ydpPink transition-colors">Our Modalities</a>
+                <a href="#join" class="hover:text-ydpGreen transition-colors">Join Us</a>
+            </div>
+            <a href="https://www.instagram.com/your_daily_practice_/" target="_blank" class="bg-gradient-to-r from-ydpPink to-ydpGreen text-ydpDark text-xs font-bold tracking-widest uppercase px-5 py-2.5 rounded-full hover:opacity-90 transition-opacity">
+                Follow Instagram
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative pt-32 pb-24 md:pt-48 md:pb-36 flex items-center justify-center text-center overflow-hidden ydp-gradient">
+        <div class="max-w-4xl mx-auto px-6 relative z-10">
+            <span class="text-ydpPink font-bold tracking-widest uppercase text-xs border border-ydpPink/30 px-3 py-1 rounded-full bg-ydpPink/5">
+                Performance Coaching & Community
+            </span>
+            <h1 class="font-display font-black text-4xl sm:text-6xl md:text-7xl text-white mt-6 mb-6 tracking-tight leading-none">
+                YOU'RE SITTING ON <br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-ydpPink via-white to-ydpGreen">UNTAPPED POTENTIAL.</span>
+            </h1>
+            <p class="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-10 font-light">
+                Enhance your performance & change your life. We are building momentum one Saturday at a time in Long Beach. Do the thing & do it now.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#basecamp" class="bg-ydpGreen text-ydpDark font-bold px-8 py-4 rounded-xl hover:bg-white transition-colors duration-300 shadow-lg shadow-ydpGreen/20">
+                    Register For Basecamp
+                </a>
+                <a href="#about" class="border border-gray-700 hover:border-gray-500 font-bold px-8 py-4 rounded-xl transition-colors duration-300">
+                    Learn Our Creed
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Manifesto / About -->
+    <section id="about" class="py-20 max-w-4xl mx-auto px-6 text-center border-t border-gray-900">
+        <h2 class="text-xs font-bold tracking-widest uppercase text-ydpGreen mb-4">The Creed</h2>
+        <p class="font-display font-extrabold text-2xl md:text-4xl text-white leading-relaxed mb-8">
+            “Consistency loves company. We are not perfect, we are consistent—and we know how to laugh about it.”
+        </p>
+        <div class="w-16 h-1 bg-gradient-to-r from-ydpPink to-ydpGreen mx-auto rounded-full mb-8"></div>
+        <p class="text-gray-400 text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
+            Your discipline here is your freedom. Wake up early. Train hard. No excuses. We built the exact community framework we craved because it didn't exist anywhere else. 
+        </p>
+    </section>
+
+    <!-- Basecamp Flagship -->
+    <section id="basecamp" class="py-20 bg-black border-y border-gray-900">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="text-ydpPink font-bold tracking-widest uppercase text-xs block mb-2">Flagship Format</span>
+                <h2 class="font-display font-black text-3xl md:text-5xl text-white tracking-tight mb-6">
+                    WELCOME TO <br><span class="text-ydpPink">YDP BASECAMP</span>
+                </h2>
+                <p class="text-gray-300 mb-6 leading-relaxed">
+                    Every climb starts at Basecamp. This is an exclusive fitness and coaching structure created to raise the bar and acclimate before you tackle the peak. We meet on Saturday mornings to test physical ceilings and anchor mental resolve.
+                </p>
+                <div class="space-y-4 border-l-2 border-ydpGreen pl-4 my-6">
+                    <div>
+                        <h4 class="font-bold text-white text-sm uppercase tracking-wider">When & Where</h4>
+                        <p class="text-gray-400 text-sm">Every Saturday Morning (7:00 AM – 9:00 AM) • Long Beach, CA</p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-white text-sm uppercase tracking-wider">The Environment</h4>
+                        <p class="text-gray-400 text-sm">Indoors & Outdoors around 5555 Stearns St / Rosie's Dog Beach</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Details Cards Box -->
+            <div class="bg-ydpDark p-8 rounded-2xl border border-gray-800 relative">
+                <div class="absolute -top-3 -right-3 bg-ydpGreen text-ydpDark font-black text-xs px-3 py-1 rounded shadow-lg uppercase tracking-wide">
+                    Next Run Launching
+                </div>
+                <h3 class="font-display font-bold text-xl text-white mb-4">Saturday Sessions include:</h3>
+                <ul class="space-y-4 text-sm text-gray-400">
+                    <li class="flex items-start"><span class="text-ydpGreen mr-2 font-bold">✓</span> <strong class="text-gray-200 mr-1">Bootcamp & Weight Training:</strong> High intensity, music-driven intervals built to push physical limits.</li>
+                    <li class="flex items-start"><span class="text-ydpGreen mr-2 font-bold">✓</span> <strong class="text-gray-200 mr-1">Yoga Flow & Mobility:</strong> Strategic decompression to stretch out, center breath, and ground down.</li>
+                    <li class="flex items-start"><span class="text-ydpGreen mr-2 font-bold">✓</span> <strong class="text-gray-200 mr-1">Self-Reflective Journaling:</strong> Deep interactive group mindset work, addressing blocks directly.</li>
+                </ul>
+                <div class="mt-8 pt-6 border-t border-gray-800 flex justify-between items-center">
+                    <div>
+                        <span class="text-xs text-gray-500 uppercase block">Passes Available</span>
+                        <span class="text-white font-bold text-lg">Single Day & Monthly</span>
+                    </div>
+                    <a href="https://www.instagram.com/your_daily_practice_/" target="_blank" class="bg-ydpPink text-white font-bold px-5 py-2.5 rounded-lg text-xs tracking-wider uppercase hover:bg-white hover:text-ydpDark transition-colors">
+                        Check Bio Link
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pillars / Modalities -->
+    <section id="modalities" class="py-20 max-w-6xl mx-auto px-6">
+        <div class="text-center mb-16">
+            <h2 class="text-xs font-bold tracking-widest uppercase text-ydpGreen mb-2">The Framework</h2>
+            <p class="font-display font-black text-3xl md:text-4xl text-white">BUILD YOUR DAILY PRACTICE</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <!-- Pillar 1 -->
+            <div class="bg-black/50 p-6 rounded-xl border border-gray-900 hover:border-gray-800 transition-colors">
+                <div class="w-10 h-10 rounded-lg bg-ydpGreen/10 flex items-center justify-center text-ydpGreen font-bold mb-4">01</div>
+                <h3 class="font-display font-bold text-lg text-white mb-2 uppercase">PLUNGE</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Confronting the freezing cold ocean waters to intentionally break down emotional excuses and mental walls.</p>
+            </div>
+            <!-- Pillar 2 -->
+            <div class="bg-black/50 p-6 rounded-xl border border-gray-900 hover:border-gray-800 transition-colors">
+                <div class="w-10 h-10 rounded-lg bg-ydpPink/10 flex items-center justify-center text-ydpPink font-bold mb-4">02</div>
+                <h3 class="font-display font-bold text-lg text-white mb-2 uppercase">RUN</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Structured loop runs along Long Beach accommodating all paces. Building continuous movement over miles.</p>
+            </div>
+            <!-- Pillar 3 -->
+            <div class="bg-black/50 p-6 rounded-xl border border-gray-900 hover:border-gray-800 transition-colors">
+                <div class="w-10 h-10 rounded-lg bg-ydpGreen/10 flex items-center justify-center text-ydpGreen font-bold mb-4">03</div>
+                <h3 class="font-display font-bold text-lg text-white mb-2 uppercase">TRAIN</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Music-heavy high-intensity full body strength training designed to challenge thresholds and build athletic grit.</p>
+            </div>
+            <!-- Pillar 4 -->
+            <div class="bg-black/50 p-6 rounded-xl border border-gray-900 hover:border-gray-800 transition-colors">
+                <div class="w-10 h-10 rounded-lg bg-ydpPink/10 flex items-center justify-center text-ydpPink font-bold mb-4">04</div>
+                <h3 class="font-display font-bold text-lg text-white mb-2 uppercase">YOGA</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Mindful integration, slow mobility flows, and community journaling assignments to unlock authentic purpose.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Action Section -->
+    <section id="join" class="py-24 bg-gradient-to-b from-black to-ydpDark text-center border-t border-gray-900 px-6">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="font-display font-black text-4xl md:text-5xl text-white tracking-tight mb-6">
+                STOP NEGOTIATING WITH YOUR OWN BULLSHIT.
+            </h2>
+            <p class="text-gray-400 text-base md:text-lg mb-8 max-w-xl mx-auto font-light">
+                If your physical growth and mental alignment matter to you, show up. Sign up for the next weekend community event right from our active link channel.
+            </p>
+            <a href="https://www.instagram.com/your_daily_practice_/" target="_blank" class="inline-block bg-white text-ydpDark font-bold text-sm tracking-widest uppercase px-8 py-4 rounded-xl hover:bg-ydpPink hover:text-white transition-all duration-300 transform hover:-translate-y-0.5">
+                Go to Instagram Bio to Register
+            </a>
+            <span class="block text-xs text-gray-500 mt-4 tracking-wider uppercase">Consistency Loves Company • Long Beach, CA</span>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 bg-black text-center text-xs text-gray-600 border-t border-gray-950">
+        <p>&copy; 2026 YOUR DAILY PRACTICE. Designed for high performance coaching.</p>
+    </footer>
+
+</body>
+</html>
